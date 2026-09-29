@@ -22,3 +22,5 @@ The old astherlabs.com domain remains on its existing Pages repository and redir
 September 13, 2026: the runnable interface JS/CSS and original downloadable frontend ZIP were withdrawn. Hear it and its 48 recordings remain available.
 
 September 19, 2026: replaced the homepage with the accepted sound-landscape full-site design. Team, beta status, development video and the three product-detail routes remain available. Private experiment pages are excluded from the published artifact.
+
+September 28, 2026: integrated the approved Asther Labs mark into the homepage and product-page headers/footers and browser icon. SynthFlow remains the product name. Email signup remains unavailable while its delivery and storage are being configured.
