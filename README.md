@@ -25,4 +25,4 @@ September 19, 2026: replaced the homepage with the accepted sound-landscape full
 
 September 28, 2026: integrated the approved Asther Labs mark into the homepage and product-page headers/footers and browser icon. SynthFlow remains the product name. Email signup remains unavailable while its delivery and storage are being configured.
 
-September 30, 2026: prepared email-based beta requests to support@astherlabs.com. The request action opens the visitor's email app with a subject; the visitor must send the message. This does not create an on-page signup list or guarantee an invitation. Mailbox delivery must be verified before this branch is deployed.
+September 30, 2026: enabled email-based beta requests to support@astherlabs.com after verifying two-way mailbox delivery and SPF, DKIM and DMARC authentication. The request action opens the visitor's email app with a subject; the visitor must send the message. This does not create an on-page signup list or guarantee an invitation. The Team section keeps Tony, Kevin and Ethan and uses one shared support contact; the retired individual email links have been removed.
