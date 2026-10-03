@@ -5,6 +5,7 @@
   ],
   "planner": "claude",
   "rendered_at": "2026-09-02",
+  "audio_updated_at": "2026-10-03",
   "presets": [
     {
       "id": "warm-analog-bass",
@@ -26,7 +27,7 @@
         "stereo": "45%",
         "level": "−6.0 dB"
       },
-      "audio": "demo/warm-analog-bass.m4a",
+      "audio": "demo/warm-analog-bass.wav",
       "refines": {
         "brighter": {
           "label": "brighter",
@@ -42,7 +43,7 @@
           "diff": [
             "filter cutoff 22 → 38"
           ],
-          "audio": "demo/warm-analog-bass.brighter.m4a"
+          "audio": "demo/warm-analog-bass.brighter.wav"
         },
         "wider": {
           "label": "wider",
@@ -58,7 +59,7 @@
           "diff": [
             "stereo width 45% → 75%"
           ],
-          "audio": "demo/warm-analog-bass.wider.m4a"
+          "audio": "demo/warm-analog-bass.wider.wav"
         },
         "shorter-attack": {
           "label": "shorter attack",
@@ -237,7 +238,7 @@
         "stereo": "70%",
         "level": "−9.0 dB"
       },
-      "audio": "demo/cinematic-pad.m4a",
+      "audio": "demo/cinematic-pad.wav",
       "refines": {
         "brighter": {
           "label": "brighter",
@@ -253,23 +254,23 @@
           "diff": [
             "filter cutoff 28 → 44"
           ],
-          "audio": "demo/cinematic-pad.brighter.m4a"
+          "audio": "demo/cinematic-pad.brighter.wav"
         },
         "wider": {
-          "label": "wider",
+          "label": "pitch bend",
           "display": {
             "wavetable": "String Pad",
             "cutoff": "28",
             "resonance": "10%",
             "attack": "Slow",
             "decay": "Long",
-            "stereo": "100%",
+            "stereo": "70%",
             "level": "−9.0 dB"
           },
           "diff": [
-            "stereo width 70% → 100%"
+            "pitch bend in the recorded performance"
           ],
-          "audio": "demo/cinematic-pad.wider.m4a"
+          "audio": "demo/cinematic-pad.pitch-bend.wav"
         },
         "shorter-attack": {
           "label": "shorter attack",
@@ -447,7 +448,7 @@
         "stereo": "45%",
         "level": "−6.0 dB"
       },
-      "audio": "demo/aggressive-lead.m4a",
+      "audio": "demo/aggressive-lead.wav",
       "refines": {
         "brighter": {
           "label": "brighter",
@@ -463,7 +464,7 @@
           "diff": [
             "filter cutoff 22 → 38"
           ],
-          "audio": "demo/aggressive-lead.brighter.m4a"
+          "audio": "demo/aggressive-lead.brighter.wav"
         },
         "wider": {
           "label": "wider",
@@ -479,7 +480,7 @@
           "diff": [
             "stereo width 45% → 75%"
           ],
-          "audio": "demo/aggressive-lead.wider.m4a"
+          "audio": "demo/aggressive-lead.wider.wav"
         },
         "shorter-attack": {
           "label": "shorter attack",
@@ -848,5 +849,10 @@
         }
       }
     }
-  ]
+  ],
+  "audio_sources": {
+    "demo/warm-analog-bass*.wav": "User-supplied WAV; render process unverified",
+    "demo/aggressive-lead*.wav": "User-supplied WAV; render process unverified",
+    "demo/cinematic-pad*.wav": "User-supplied WAV; render process unverified"
+  }
 }

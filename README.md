@@ -11,7 +11,7 @@ Keep `CNAME` containing `astherlabs.ai` when replacing the compiled files.
 ## Scope and provenance
 
 This is a development demonstration, not a verified SynthFlow product release.
-The catalogue contains 48 prerecorded AAC assets and eight prompts with only two distinct displayed parameter recipes. A verified keyed render is still required before formal release.
+The catalogue contains nine supplied WAV recordings for the homepage Bass, Lead, and Pad examples, plus 39 legacy AAC assets. It has eight prompts with only two distinct displayed parameter recipes. The rendering process for the supplied WAV files has not been independently verified. A verified keyed render is still required before formal release.
 The page retains its exact offline-render disclosure, Audio provenance details, and backend/plugin availability boundaries.
 The source project retains the failing catalogue release gate; this static repository does not run or bypass it.
 
@@ -26,3 +26,5 @@ September 19, 2026: replaced the homepage with the accepted sound-landscape full
 September 28, 2026: integrated the approved Asther Labs mark into the homepage and product-page headers/footers and browser icon. SynthFlow remains the product name. Email signup remains unavailable while its delivery and storage are being configured.
 
 September 30, 2026: enabled email-based beta requests to support@astherlabs.com after verifying two-way mailbox delivery and SPF, DKIM and DMARC authentication. The request action opens the visitor's email app with a subject; the visitor must send the message. This does not create an on-page signup list or guarantee an invitation. The Team section keeps Tony, Kevin and Ethan and uses one shared support contact; the retired individual email links have been removed.
+
+October 3, 2026: replaced the nine homepage Bass, Lead, and Pad recordings with locally supplied WAV files. The Pad “Wider” demo is now labeled “Pitch bend”; its internal `wider` branch key is retained for compatibility with the compiled interface. The remaining 39 catalogue clips are legacy AAC recordings.
