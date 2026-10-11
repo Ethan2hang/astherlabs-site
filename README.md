@@ -30,3 +30,7 @@ September 30, 2026: enabled email-based beta requests to support@astherlabs.com 
 October 3, 2026: replaced the nine homepage Bass, Lead, and Pad recordings with locally supplied WAV files. The Pad “Wider” demo is now labeled “Pitch bend”; its internal `wider` branch key is retained for compatibility with the compiled interface. The remaining 39 catalogue clips are legacy AAC recordings.
 
 October 5, 2026: published the reviewed Workbench recovery with the ordered particle layout, current recording-to-terrain mapping, shared opening-to-Workbench geometry, smooth staged selection and explicit playback. This is the current-audio/current-mapping version reviewed locally on port 4256; private diagnostic controls and historical-media comparison routes are excluded. All recordings, catalogue data, images, videos, contact destinations and domain settings are preserved. Remaining Lead brightness/banding limitations and the formal 2/8 catalogue gate are not represented as resolved. Production build and 243 focused landscape tests passed; the catalogue checks retain the known release-gate failure.
+
+## October 11, 2026 — Instagram and Serum 2
+
+Adds Asther Labs Instagram links to Team and site footers. Updates support information for Vital and Serum 2, including Text → Preset, Audio → Preset and native preset export. Recordings, terrain rendering and demo provenance are unchanged.
